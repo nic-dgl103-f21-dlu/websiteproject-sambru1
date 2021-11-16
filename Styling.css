@@ -1,0 +1,84 @@
+
+
+/* layout for home page bouquet */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    margin: 0 auto;
+    width: 600px;
+    
+  }
+  
+.card {
+   background-color: burlywood;
+  }
+/* end layout for home page bouquet */
+
+
+
+/* layout for all pages */
+nav ul, h1, h2{ width: 1100px; margin: 10px auto; }
+
+body {background-color: #fcf8f1}
+
+
+.ghostwhite {
+    background-color: #e6e8ef;
+}
+/* layout for all pages */
+    
+
+
+
+/* start navigation */
+nav {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3f3f4;
+}
+
+nav .wrapper {
+    width: 29em;
+    margin: auto ;
+      }
+nav ul {
+     list-style-type: none;
+     margin: 0;
+    padding: 0;
+    display: flex;
+        
+      }
+      
+li a { 
+    padding: 14px;
+    display: inline-block;
+    text-decoration: none;
+    color: #191645;
+    justify-content: space-between;
+}
+      
+nav li a:hover { 
+     background-color: #e4d6c0;
+    color: white;}
+/* end navigation */
+
+
+
+.center {
+    text-align: center;}
+
+h2 {font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;}
+
+h1  { font-size: 2.4rem;
+   font-family: 'Roboto Mono', monospace;
+   padding-top: 2em;
+   padding-bottom: 2em;
+}
+
+p { font-family: 'Montserrat', sans-serif;}
+
+.pad {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
