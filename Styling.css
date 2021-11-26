@@ -1,3 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    
+}
+
+/*Icon styling*/
+.iconstyle a{
+    font-size: 30px;
+    margin: 0 10px 0 0;
+    color: #fcf8f1;
+    text-decoration: none;
+    float: right;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.iconstyle a:hover {
+    opacity: .5;
+    color: ghostwhite
+}
 
 
 /* layout for home page bouquet */
@@ -5,10 +27,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
-    margin: 0 auto;
+    margin: 0 auto; 
     width: 600px;
-    
-  }
+    padding-bottom: 70px;
+}
   
 .card {
    background-color: burlywood;
@@ -18,13 +40,15 @@
 
 
 /* layout for all pages */
-nav ul, h1, h2{ width: 1100px; margin: 10px auto; }
+nav ul, h1, h2{ width: auto; margin:  auto; 
+align-items: center;}
 
-body {background-color: #fcf8f1}
+body {background-color: white}
 
 
 .ghostwhite {
-    background-color: #e6e8ef;
+    background-color: #f7f0e5;
+    margin: 100px;
 }
 /* layout for all pages */
     
@@ -34,7 +58,8 @@ body {background-color: #fcf8f1}
 /* start navigation */
 nav {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f3f3f4;
+    font-size: 15px;
+    margin-right:182px;
 }
 
 nav .wrapper {
@@ -45,15 +70,15 @@ nav ul {
      list-style-type: none;
      margin: 0;
     padding: 0;
-    display: flex;
-        
+    display: flex;        
       }
       
-li a { 
+nav li a { 
+    padding-left:10px;
     padding: 14px;
     display: inline-block;
     text-decoration: none;
-    color: #191645;
+    color: white;
     justify-content: space-between;
 }
       
@@ -70,10 +95,10 @@ nav li a:hover {
 h2 {font-family: 'Roboto Mono', monospace;
     font-size: 1.5em;}
 
-h1  { font-size: 2.4rem;
+h1  { font-size: 2rem;
    font-family: 'Roboto Mono', monospace;
-   padding-top: 2em;
-   padding-bottom: 2em;
+   padding-top: 10px;
+   padding-bottom: .5em;
 }
 
 p { font-family: 'Montserrat', sans-serif;}
@@ -82,3 +107,6 @@ p { font-family: 'Montserrat', sans-serif;}
     padding-top: 6em;
     padding-bottom: 6em;
 }
+.left {float:left;}
+
+
