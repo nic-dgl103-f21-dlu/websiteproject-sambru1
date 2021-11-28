@@ -5,51 +5,97 @@
     
 }
 
-/*Icon styling*/
+/*top bar*/
+.topbar {
+    overflow: hidden;
+    background-color: rgb(232, 232, 255);
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+  }
+  
+  .topbar a {
+    padding: 10px 0; 
+    color: rgb(255, 255, 255); 
+    font-size: 36px; 
+    float:right;
+
+  }
 .iconstyle a{
     font-size: 30px;
-    margin: 0 10px 0 0;
-    color: #fcf8f1;
+    margin: 0 5px 0 0;
+    color: #000000;
     text-decoration: none;
-    float: right;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-right: 10px;
+;
 }
 
 .iconstyle a:hover {
     opacity: .5;
-    color: ghostwhite
+    color: rgb(169, 169, 228)
 }
 
+
+/*Banner*/
+.banner {object-fit: cover;
+    width: 1443px;
+    height: 300px;
+    background-position: center;;
+}
+.txtover { position:relative } 
+
+.txtover figcaption {
+     position:absolute; bottom:0; left: 5em; ;
+    padding: 125px;
+    color:white;
+    padding-left:5em;
+}
+
+figcaption {
+    font-size: 60px;}
 
 /* layout for home page bouquet */
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
+    gap: 3em;
     margin: 0 auto; 
-    width: 600px;
+    width: 700px;
     padding-bottom: 70px;
 }
   
 .card {
    background-color: burlywood;
-  }
+}
 /* end layout for home page bouquet */
 
-
+/* map layout */
+.map {background-color: #f7f0e5;
+    margin-top: 40px;
+    padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 25px;
+    font-size:20px;
+    padding-left:10em
+    }
 
 /* layout for all pages */
-nav ul, h1, h2{ width: auto; margin:  auto; 
+nav ul { width: auto; margin:  auto; 
 align-items: center;}
 
-body {background-color: white}
+body {background-color: #ffffff}
 
 
 .ghostwhite {
     background-color: #f7f0e5;
-    margin: 100px;
+    margin: 180px;
 }
+
+footer {
+    background-color: #231f47;
+    color: white;
+    padding: 8px;
+}
+    
 /* layout for all pages */
     
 
@@ -58,8 +104,8 @@ body {background-color: white}
 /* start navigation */
 nav {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    margin-right:182px;
+    font-size: 24px;
+    
 }
 
 nav .wrapper {
@@ -71,6 +117,7 @@ nav ul {
      margin: 0;
     padding: 0;
     display: flex;        
+    justify-content: center;
       }
       
 nav li a { 
@@ -78,7 +125,7 @@ nav li a {
     padding: 14px;
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     justify-content: space-between;
 }
       
@@ -93,20 +140,29 @@ nav li a:hover {
     text-align: center;}
 
 h2 {font-family: 'Roboto Mono', monospace;
-    font-size: 1.5em;}
+    font-size: 1.5em;
+    width: auto; margin:  auto; 
+    align-items: center;}
 
-h1  { font-size: 2rem;
+h1  { font-size: 3em;
    font-family: 'Roboto Mono', monospace;
-   padding-top: 10px;
+   padding-top: 2em;
    padding-bottom: .5em;
+   width: auto; margin:  auto; 
+   align-items: center;
 }
 
-p { font-family: 'Montserrat', sans-serif;}
+p, ul, li { font-family: 'Montserrat', sans-serif;}
 
 .pad {
     padding-top: 6em;
     padding-bottom: 6em;
 }
 .left {float:left;}
+
+
+
+
+
 
 
