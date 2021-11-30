@@ -10,9 +10,50 @@
 <script src="https://kit.fontawesome.com/3edc241c9d.js" crossorigin="anonymous"></script> 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">  
 <style>
+article{
+    margin: 8em;
+}
+/* service explanations */
+.wrapper { 
+  background-color: #f7f0e5; 
+  padding: 40px;
+  clear:left;
+}
+.wrapper2 { 
+  background-color: #ffffff; 
+  padding: 40px;
+  clear:right;
+}
+.clearfix:after {  
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
 
+.left {
+    float:left;
+    padding-right: 50px
+}
+.right {
+    float:right;
+    padding-right: 50px
+}
 
+p, ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
 
+.pad {
+    padding-bottom:20px;
+}
+
+ul {
+    list-style-type: none;
+}
 </style> 
 </head>
 <body>
@@ -26,7 +67,7 @@
     </div>
     <h1 class="center">Four Seasons Flowers</h1>
     <nav>
-        <div class="wrapper">
+        <div class="turnover">
             <ul>
                 <li><a href="Home.html">Home</a> &nbsp; </li>
                 <li><a href="Aboutus.html">About Us</a> &nbsp; </li>
@@ -41,60 +82,61 @@
         <figcaption>Services</figcaption>
         </div>
         </figure>
-<div class="center">
-        <h2>Holidays</h2>
-    <img src="images/christmas.jpeg"
+        <article>
+<div class="wrapper clearfix">
+    <img class="left" src="images/christmas.jpeg"
     alt="christmas supplies"
-    height="500" width= "auto">
-    <p><b>When the holidays come around, Four Seasons Flowers has you covered. We offer a wide variety of products that are catered to the specified holiday.</b></p>
+    height="420" width= "500px">
+    <h2>Holidays</h2>
+    <p><b>When the holidays come around, Four Seasons Flowers has you covered. We order in seasonal products that are catered to the specified holiday.</b></p>
     <ul>
-        <h2> Christmas</h2>
+        <h3> Christmas</h3>
         <li>Personalized Wreaths</li>
         <li>Decorated crosses</li>
-        <li>Christmas Garands</li>
+        <li>Christmas Garlands</li>
     </ul>
+
     <ul>
-        <h2>Valentines Day</h2>
+        <h3>Valentines Day</h3>
         <li>Chocolate bouquets</li>
         <li>Specialized arrangemnets</li>
         <li>Catered presents and chocolates</li>
     </ul>
     <ul>
-        <h2>Mothers Day</h2>
-        <p>We order extra supplies and take pre orders will start a month in advance.</p>
+   
+        <h3>Mothers Day</h3>
+        <p>We order extra supplies and take pre orders that start a month in advance.</p>
     </ul>
 </div>
-<div class="center">
+<div class="wrapper2 clearfix">
     <h2>Occasions</h2>
-    <img src="images/occasion.jpeg"
+    <img class="right" src="images/occasion.jpeg"
     alt="occasion"
-    height="600" width= "auto">
+    height="400" width= "350px">
     <p><b>Secretary day, weddings, birthdays, and even prom. There are countless occasions that we can help you make special. </b></p>
     <ul>
-        <h2>Graduation</h2>
-        <li>For prom, we start to take pre-orders a month in advance. Please contatct us to put your name in and if you have any extra modifications.</li>
-        <li>There is a high demand for bouquets around this time so pre-orders are always prefered. </li>
+        <h3>Graduation</h3>
+        <li>When it comes to graduation and prom, we prefer to start taking in crosage and bouquet orders a month and a half in advance. This will help us provide you with a worry-free and swift service. Please contatct us through email or phone to place orders.</li>
+        
     </ul>
     <ul>
-        <h2>Weddings</h2>
-        <li>We love the chance to work with you and cater to your ever need in regards to your special day. Because of the amount of orders a typical weddings needs, we would need a pre-order of 3 months in advance.</li>
+        <h3>Weddings</h3>
+        <li>Our wedding prices vary depending on the availability of flowers you require, what flowers will be used within you arrangements and also the time of the year that your wedding is for. Come see us in our store for a free consultation.</li>
     </ul>
     <ul>
-        <h2> Secretary's day</h2>
-        <li>Believe it or not, secretary is on of our most busiest days of the year. It is recommend to pre-order at least 2 weeks in advance so you can get your secretary that something special.</li>
+        <h3> Secretary's day</h3>
+        <li>Believe it or not, secretary day is one of our most busiest days of the year. It is recommend to pre-order at least 2 weeks in advance so you can beat the rush.</li>
     </ul>
-
-
-
-    
 </div>
-<div class="center">
-    <h2>Bouquets</h2>
-    <img src="images/cart.JPG"
+
+<div class="wrapper clearfix">
+    <img class="left" src="images/cart.JPG"
     alt="occasion"
-    height="500" width= "auto">
-    <p><b>We have a wide selection of pre-made bouquets for when you're in a hurry, or we take in preorders that can take a minimum of one day to complete</b></p>
+    height="400" width= "550">
+    <h2>Bouquets</h2>
+    <p>We have a wide selection of pre-made bouquets for when you're in a hurry, or we take in preorders that can take a minimum of one day to complete</p>
 </div>
+</article>
 <footer><i>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</i></footer>
 </body>
 </html>

@@ -8,7 +8,7 @@
 /*top bar*/
 .topbar {
     overflow: hidden;
-    background-color: rgb(232, 232, 255);
+    background-color: rgb(240, 240, 255);
     position: fixed; 
     top: 0; 
     width: 100%; 
@@ -41,7 +41,8 @@
 .banner {object-fit: cover;
     width: 1443px;
     height: 300px;
-    background-position: center;;
+    background-position: center;
+    padding-top: 10px;
 }
 .txtover { position:relative } 
 
@@ -68,7 +69,8 @@ figcaption {
 .card {
    background-color: burlywood;
 }
-/* end layout for home page bouquet */
+
+
 
 /* map layout */
 .map {background-color: #f7f0e5;
@@ -82,7 +84,7 @@ figcaption {
 nav ul { width: auto; margin:  auto; 
 align-items: center;}
 
-body {background-color: #ffffff}
+body {background-color: white}
 
 
 .ghostwhite {
@@ -95,15 +97,11 @@ footer {
     color: white;
     padding: 8px;
 }
-    
-/* layout for all pages */
-    
-
 
 
 /* start navigation */
 nav {
-    font-family: 'Montserrat', sans-serif;
+    font-family:  'Open Sans', sans-serif;
     font-size: 24px;
     
 }
@@ -132,27 +130,28 @@ nav li a {
 nav li a:hover { 
      background-color: #e4d6c0;
     color: white;}
-/* end navigation */
 
 
+/*misc items */
 
 .center {
     text-align: center;}
 
-h2 {font-family: 'Roboto Mono', monospace;
+h2 {font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     width: auto; margin:  auto; 
     align-items: center;}
 
 h1  { font-size: 3em;
-   font-family: 'Roboto Mono', monospace;
+font-family: 'PT Serif', serif;
    padding-top: 2em;
    padding-bottom: .5em;
    width: auto; margin:  auto; 
    align-items: center;
 }
 
-p, ul, li { font-family: 'Montserrat', sans-serif;}
+p, ul, li { font-family: 'Open Sans', sans-serif;
+}
 
 .pad {
     padding-top: 6em;
@@ -160,7 +159,12 @@ p, ul, li { font-family: 'Montserrat', sans-serif;}
 }
 .left {float:left;}
 
-
+.padding {
+    padding-top:2em;
+}
+.space{
+    padding-bottom:3em;
+}
 
 
 
