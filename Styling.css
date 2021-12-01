@@ -62,8 +62,9 @@ figcaption {
     grid-template-columns: repeat(3, 1fr);
     gap: 3em;
     margin: 0 auto; 
-    width: 700px;
-    padding-bottom: 70px;
+    width: 900px;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
   
 .card {

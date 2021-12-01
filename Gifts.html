@@ -10,6 +10,77 @@
 <script src="https://kit.fontawesome.com/3edc241c9d.js" crossorigin="anonymous"></script> 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet"> 
 <style>
+.back{
+    background-color: #f7f0e5;
+    margin:100px
+}
+h2{
+    font-size: 35px;
+}
+
+/*choclate section*/
+.round{
+object-fit: cover;
+border-radius: 300px;
+float:left;
+}
+footer{
+
+   bottom:0;
+   right:0;
+   left:0;
+}
+article{
+    margin:180px
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item1 {
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  width: 10%;
+}
+
+.flext-item2{
+    align-items: right;
+    padding-left: 40px;
+}
+.order .item1 {
+ 
+  order: 1;
+float:right;
+}
+
+.order .item2 {
+
+  order: 2;
+ justify-content: right;
+}
+
+
+/*Banner*/
+.banner1 {object-fit: cover;
+    width: 1443px;
+    height: 300px;
+    background-position: center;
+    padding-top: 10px;
+}
+.txtover { position:relative } 
+
+.txtover figcaption {
+     position:absolute; bottom:0; left: 5em; ;
+    padding: 125px;
+    color:white;
+    padding-left:5.9em;
+}
+
+figcaption {
+    font-size: 60px;}
+
 </style>  
 </head>
 <body class="center">
@@ -38,14 +109,15 @@
     </nav>   
     </header>
     <figure class="txtover">
-        <div class="banner">
-            <img class ="banner" src="Images/storefront.png">
+        <div class="banner1">
+            <img class ="banner1" src="Images/storefront.png">
         <figcaption>Gifts</figcaption>
         </div>
         </figure>
-    <h2 class="center">Cards</h2>
-    <p class="center">We offer a wide variety of small card that we can add onto any arangement you want. Just come in or call us and we can get you sorted.</p>
-    <section>
+
+    <section class="back">
+        <h2 class="center">Cards</h2>
+        <p class="center">We offer a wide variety of small card that we can add onto any arangement you want. <br>Just come in or call us and we can get you sorted.</p>
         <div class="container">
             <img class="card" src="images/card1.jpg"
             alt="card"
@@ -76,11 +148,17 @@
             width="260" height= "180">
         </div>
     </section>
-    <section>
-        <img src="images/boxchocolates.jpg"
+    <article class="flex-container order">
+        <div class="flex-item1 item1">
+        <img class="round" src="images/boxchocolates.jpg"
         alt="chocolates"
-        width="700" height= "400">
-    </section>
-    <footer><i>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</i></footer>
+        width="500" height= "500">
+    </div>
+    <div class="flex-item2 item2">
+        <h2>Purdys chocolates</h2>
+        <p>At four seasons flowers, we are proud to sell a big variety of purdys chocolates. We usually order in boquets of chocolate roses for valentines day, but if you need it off season then don't hesitate to ask.</p>
+    </div>
+    </article>
+    <footer class="footer"><i>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</i></footer>
 </body>
 </html>
