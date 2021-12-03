@@ -80,14 +80,6 @@ figcaption {
     font-size:20px;
     padding-left:10em
     }
-.right {
-        float:right;
-        margin-bottom:90px
-    }
-.ulbottom  {
-        list-style-type: none;
-        text-align: left;
-    }
 
 /* layout for all pages */
 nav ul { width: auto; margin:  auto; 

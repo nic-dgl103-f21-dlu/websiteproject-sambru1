@@ -3,39 +3,26 @@
 <head>
 <title>Home Page</title>
 <meta charset=“utf-8”>
-    <link rel="stylesheet" href="Styling.css">
+    <link rel="stylesheet" href="CSS/Styling.css">
+    <link rel="stylesheet" href="CSS/home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3edc241c9d.js" crossorigin="anonymous"></script> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet"> 
-    <style> 
-
-body {color: rgb(0, 0, 0);}
-
-.black {color:black;}
-
-.ulbottom  {
-    list-style-type: none;
-    text-align: left;
-}
-
-</style>
 </head>
 <body class="center">
 <header>
-    <div class="topbar">
-    <div class="iconstyle">
-        <a href="https://www.instagram.com/floristsofprincerupert/" target="blank" class="fab fa-instagram"></a>
-        <a href="https://www.facebook.com/FourSeasonsFlowersPrinceRupert" target="blank" class="fab fa-facebook"></a>
+    <div class="topbar"><!---This was used to create the fixed top bar that scrolls down with page-->
+    <div class="iconstyle"><!---The social media tabs that you click and take you to another page-->
+        <a href="https://www.instagram.com/floristsofprincerupert/" target="blank" class="fab fa-instagram"></a><!--actual instagram-->
+        <a href="https://www.facebook.com/FourSeasonsFlowersPrinceRupert" target="blank" class="fab fa-facebook"></a><!--actual facebook-->
         <a href="file:///Users/samuelbrunelle/Desktop/DGL%20103/Project%20Part%202/websiteproject-sambru1/Fill-out%20Form.html" target="blank" class="far fa-envelope"></a>
-        <a href="tel:+12506246000" target="blank" class="fas fa-phone"></a>
+        <a href="tel:+12506246000" target="blank" class="fas fa-phone"></a><!--will connect to call-->
     </div>
 </div>
 <h1 class="center">Four Seasons Flowers</h1>
-
 <nav>
-    <figure class="turnover>">
     <div>
         <ul>
             <li><a href="Home.html">Home</a> &nbsp; </li>
@@ -45,14 +32,13 @@ body {color: rgb(0, 0, 0);}
 
        </ul>
     </div>
-</figure>
 </nav>   
 </header>
 <figure class="txtover">
 <div class="banner">
     <img class ="banner" src="Images/storefront.png">
 <figcaption>Home Page</figcaption>
-</div>
+</div> <!--This banner will be on each page, with the correct name on it-->
 </figure>
     <section class="ghostwhite">
         <h1 class="black">Bouquets</h1>
@@ -74,12 +60,15 @@ body {color: rgb(0, 0, 0);}
             width="200" height= "300">
             <img class="card" src="images/bouquet7.jpg"
             alt="bouquet of flowers"
-            width="200" height= "300">
+            width="200" height= "300"> <!--gallery of bouquets that ahve been made in the past-->
         </div>
-        <p class="space">All of our bouquets are handcrafted and made with cafeful consideration. They can go from <br>$15 to $300 depending on what you want, come on down or call us to make an order.</p>
+        <div class="spacebottom"><!--space from text and bottom of container-->
+        <p><b>All of our bouquets are handcrafted and made with cafeful consideration. They can go from <br>$15 to $300 depending on what you want, come on down or call us to make an order.</b></p>
+         </div>
     </section>
+    <article>
     <div class="map">
-    <aside class="left">
+    <aside class="left"><!--styling to layout map, hours, and "connect" with us tab-->
     <h2 class ="left">Store Hours</h2>
     <ul class="ulbottom">
         <li>Monday 8-5</li>
@@ -94,9 +83,11 @@ body {color: rgb(0, 0, 0);}
     <p class="ulbottom"> 425 3 Ave W, Prince Rupert, <br>BC V8J 1L6</p>
 </div>
     </aside>
+    <h2 class="padd">Our Location</h2><!--MUTLIMEDIA map of where Four Seasons Flowers is-->
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2327.530164642141!2d-130.32710088412495!3d54.31225818019277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5472d5133a059f0f%3A0x807eb298e5daaa4b!2sFour%20Seasons%20Flowers!5e0!3m2!1sen!2sca!4v1637877186876!5m2!1sen!2sca" 
-    width="300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
+</article>
 <footer><i>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</i></footer>
 </body>
 </html>

@@ -4,73 +4,16 @@
 <head>
 <title>Services.html</title>
 <meta charset=“utf-8”>
-<link rel="stylesheet" href="Styling.css">
+<link rel="stylesheet" href="CSS/Styling.css">
+<link rel="stylesheet" href="CSS/services.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src="https://kit.fontawesome.com/3edc241c9d.js" crossorigin="anonymous"></script> 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">  
-<style>
-article{
-    margin: 8em;
-}
-/* service explanation containers */
-.wrapper { 
-  background-color: #f7f0e5; 
-  padding: 40px;
-  clear:left;
-}
-.wrapper2 { 
-  background-color: #ffffff; 
-  padding: 40px;
-  clear:right;
-}
-.clearfix:after {  
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
-   clear: both;
-}
-
-.left {
-    float:left;
-    padding-right: 50px;
-    border-top-left-radius:140px;
-    border-bottom-left-radius:140px;
-    object-fit: cover;
-    
-}
-.right {
-    float:right;
-    padding-left: 50px;
-    border-top-right-radius: 140px;
-    border-bottom-right-radius:140px;
-    object-fit: cover;
-}
-
-p, ul {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-}
-
-.pad {
-    padding-bottom:20px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-h2{
-    font-size: 35px;
-}
-
-</style> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">   
 </head>
 <body>
     <div class="topbar">
-        <div class="iconstyle">
+        <div class="iconstyle"><!--The rest of the pages will have the same as the home-->
            <a href="https://www.instagram.com/floristsofprincerupert/" target="blank" class="fab fa-instagram"></a>
            <a href="https://www.facebook.com/FourSeasonsFlowersPrinceRupert" target="blank" class="fab fa-facebook"></a>
            <a href="file:///Users/samuelbrunelle/Desktop/DGL%20103/Project%20Part%202/websiteproject-sambru1/Fill-out%20Form.html" target="blank" class="far fa-envelope"></a>
@@ -81,25 +24,25 @@ h2{
     <nav>
         <div class="turnover">
             <ul>
-                <li><a href="Home.html">Home</a> &nbsp; </li>
+                <li><a href="Home.html">Home</a> &nbsp; </li><!--The rest of the pages will have the same as the home-->
                 <li><a href="Aboutus.html">About Us</a> &nbsp; </li>
                 <li><a href="Gifts.html">Gifts</a> &nbsp; </li>
                 <li><a href="Services.html">Services</a> &nbsp; </li>
            </ul>
         </div>
     </nav>   
-    <figure class="txtover">
+    <figure class="txtover"><!--The rest of the pages will have the same as the home, just a different caption-->
         <div class="banner">
             <img class ="banner" src="Images/storefront.png">
         <figcaption>Services</figcaption>
         </div>
         </figure>
         <article>
-<div class="wrapper clearfix">
+<div class="wrapper clearfix"><!--wraps the whole section-->
     <img class="left" src="images/christmas.jpeg"
     alt="christmas supplies"
-    height="400" width= "400px">
-    <h2>Holidays</h2>
+    height="400" width= "400px"><!--left puts all the content starting form the left side-->
+    <h2 class="h21">Holidays</h2>
     <p><b>When the holidays come around, Four Seasons Flowers has you covered. We order in a wide selection of seasonal products that are catered to the specified holiday.</b></p>
     <ul>
         <h3> Christmas</h3>
@@ -107,7 +50,6 @@ h2{
         <li>Decorated crosses</li>
         <li>Christmas Garlands</li>
     </ul>
-
     <ul>
         <h3>Valentines Day</h3>
         <li>Chocolate bouquets</li>
@@ -115,13 +57,12 @@ h2{
         <li>Catered presents and chocolates</li>
     </ul>
     <ul>
-   
         <h3>Mothers Day</h3>
         <p>We order extra supplies and take pre orders that start a month in advance.</p>
-    </ul>
+    </ul><!--just some of the things that the store will offer-->
 </div>
-<div class="wrapper2 clearfix">
-    <h2>Occasions</h2>
+<div class="wrapper2 clearfix"><!--different wrapper for the right side-->
+    <h2 class="h21">Occasions</h2>
     <img class="right" src="images/occasion.jpeg"
     alt="occasion"
     height="400" width= "400px">
@@ -145,10 +86,28 @@ h2{
     <img class="left" src="images/cart.JPG"
     alt="occasion"
     height="400" width= "400">
-    <h2>Bouquets</h2>
+    <h2 class="h21">Bouquets</h2>
     <p>We have a wide selection of pre-made bouquets for when you're in a hurry, or we take in preorders that can take a minimum of one day to complete</p>
 </div>
 </article>
+    <div class="map">
+    <aside class="left"><!--styling to layout map, hours, and "connect" with us tab-->
+    <h2 class ="left">Store Hours</h2>
+    <ul class="ulbottom">
+        <li>Monday 8-5</li>
+        <li>Tuesday 8-5</li>
+        <li>Wednesday 8-5</li>
+        <li>Thursday 8-5</li>
+        <li>Friday 8-5</li>
+        <li>Saturday 8-3</li>
+        <li>Sunday 8-3</li>
+    </ul>
+    <p class="ulbottom"> 425 3 Ave W, Prince Rupert, <br>BC V8J 1L6</p>
+    </aside>
+    <h2 class="padd">Our Location</h2><!--MUTLIMEDIA map of where Four Seasons Flowers is-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2327.530164642141!2d-130.32710088412495!3d54.31225818019277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5472d5133a059f0f%3A0x807eb298e5daaa4b!2sFour%20Seasons%20Flowers!5e0!3m2!1sen!2sca!4v1637877186876!5m2!1sen!2sca" 
+    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
 <footer><i>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</i></footer>
 </body>
 </html>

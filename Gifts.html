@@ -4,84 +4,8 @@
 <head>
 <title>Gifts</title>
 <meta charset=“utf-8”>
-<link rel="stylesheet" href="Styling.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<script src="https://kit.fontawesome.com/3edc241c9d.js" crossorigin="anonymous"></script> 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet"> 
-<style>
-.back{
-    background-color: #f7f0e5;
-    margin:100px
-}
-h2{
-    font-size: 35px;
-}
-
-/*choclate section*/
-.round{
-object-fit: cover;
-border-radius: 300px;
-float:left;
-}
-footer{
-
-   bottom:0;
-   right:0;
-   left:0;
-}
-article{
-    margin:180px
-}
-
-.flex-container {
-  display: flex;
-}
-
-.flex-item1 {
-  padding: 15px;
-  margin: 15px;
-  text-align: center;
-  width: 10%;
-}
-
-.flext-item2{
-    align-items: right;
-    padding-left: 40px;
-}
-.order .item1 {
- 
-  order: 1;
-float:right;
-}
-
-.order .item2 {
-
-  order: 2;
- justify-content: right;
-}
-
-
-/*Banner*/
-.banner1 {object-fit: cover;
-    width: 1443px;
-    height: 300px;
-    background-position: center;
-    padding-top: 10px;
-}
-.txtover { position:relative } 
-
-.txtover figcaption {
-     position:absolute; bottom:0; left: 5em; ;
-    padding: 125px;
-    color:white;
-    padding-left:5.9em;
-}
-
-figcaption {
-    font-size: 60px;}
-
-</style>  
+<link rel="stylesheet" href="CSS/Styling.css">
+<link rel="stylesheet" href="CSS/gifts.css">
 </head>
 <body class="center">
     <header>
@@ -94,7 +18,6 @@ figcaption {
             </div>
         </div>
 <h1 class="center"> Four Seasons Flowers</h1>
-    
     <nav>
         <figure class="turnover">
         <div>
@@ -114,10 +37,9 @@ figcaption {
         <figcaption>Gifts</figcaption>
         </div>
         </figure>
-
     <section class="back">
-        <h2 class="center">Cards</h2>
-        <p class="center">We offer a wide variety of small card that we can add onto any arangement you want. <br>Just come in or call us and we can get you sorted.</p>
+        <h2 class="center">Cards</h2><!--used and motified the container card from the bouquets on the homepage-->
+        <p class="center"><b>We offer a wide variety of small card that we can add onto any arangement you want. <br>Just come in or call us and we can get you sorted.</b></p>
         <div class="container">
             <img class="card" src="images/card1.jpg"
             alt="card"
@@ -148,17 +70,48 @@ figcaption {
             width="260" height= "180">
         </div>
     </section>
-    <article class="flex-container order">
-        <div class="flex-item1 item1">
+    <article>
+        <div><!--decided to do one picture and have a description of what we have for chocolates and home decour-->
         <img class="round" src="images/boxchocolates.jpg"
         alt="chocolates"
-        width="500" height= "500">
-    </div>
-    <div class="flex-item2 item2">
+        width="400" height= "400">
         <h2>Purdys chocolates</h2>
-        <p>At four seasons flowers, we are proud to sell a big variety of purdys chocolates. We usually order in boquets of chocolate roses for valentines day, but if you need it off season then don't hesitate to ask.</p>
     </div>
+    <div>
+        <p class="pb"><b>At four seasons flowers, we are proud to sell a wide variety of purdys chocolates. We have boxes, individual choclolates, bars, and chocolate roses. When valentines day comes around, we order 10x the chocolate roses so there are enough for all orders.</b></p>
+    </div><!--pb styles the paragraphs-->
     </article>
+    <article>
+    <div>
+        <img class="round" src="images/homedecor.JPG"
+        alt="home decour"
+        width="400" height= "400">
+        <h2>Home Decour</h2>
+        </div>
+        <div>
+        <p class="pb"><b>Home decour is something we like to stay on top of. We have different assortments of items that can range from baskets, plant holders, and candles, to lunch boxes and seasonal decor. Items can go quickly so it's best to come down and see what we have in store. </b></p>
+    </div>
+</article>
+<div class="map">
+    <aside class="left"><!--styling to layout map, hours, and "connect" with us tab-->
+    <h2 class ="left">Store Hours</h2>
+    <ul class="ulbottom">
+        <li>Monday 8-5</li>
+        <li>Tuesday 8-5</li>
+        <li>Wednesday 8-5</li>
+        <li>Thursday 8-5</li>
+        <li>Friday 8-5</li>
+        <li>Saturday 8-3</li>
+        <li>Sunday 8-3</li>
+    </ul>
+    <div class="padding">
+    <p class="ulbottom"> 425 3 Ave W, Prince Rupert, <br>BC V8J 1L6</p>
+</div>
+    </aside>
+    <h2 class="padd">Our Location</h2><!--MUTLIMEDIA map of where Four Seasons Flowers is-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2327.530164642141!2d-130.32710088412495!3d54.31225818019277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5472d5133a059f0f%3A0x807eb298e5daaa4b!2sFour%20Seasons%20Flowers!5e0!3m2!1sen!2sca!4v1637877186876!5m2!1sen!2sca" 
+    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
     <footer class="footer"><i>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</i></footer>
 </body>
 </html>

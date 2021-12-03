@@ -4,20 +4,46 @@
 <head>
 <title>Fillout Form</title>
 <meta charset=“utf-8”>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/3edc241c9d.js" crossorigin="anonymous"></script> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="CSS/fill-out Form.css">
 </head>
 <body>
-    <form action="mailto:contact@yourdomain.com"
-method="POST"
-enctype="multipart/form-data"
-name="EmailForm">
-    Name:<br>
-    <input type="text" size="19" name="Contact-Name"><br><br>
-    Email:<br>
-    <input type="email" name="Contact-Email"><br><br> 
-    Message:<br> 
-    <textarea name="Contact-Message" rows="6″ cols="20″>
-    </textarea><br><br> 
-    <button type="submit" value="Submit">Send</button>
-</form>  
+    <div class="wrapper-form">
+        <h2>Contact Form</h2>
+        <form method="post" action="file:///Users/samuelbrunelle/Desktop/DGL%20103/Project%20Part%202/websiteproject-sambru1/Home.html"><!--after pressing submit, it will bring the user back to the page they were previously using-->
+         <div class="form-field">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Ex: Sam">
+        </div>
+
+        <div class="form-field">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Ex: Brunelle"><!--form control 2-->
+        </div>
+      
+          <label for="email">Email <span class="label-required">* (required)</span></label>
+          <input type="email" id="email" name="email" placeholder="Ex: sbrunelle@hotmail.com" required>
+      
+          <label for="program">Reason for contacting</label>
+          <select id="program" name="program"><!--one form control is picking what area you would like to write about-->
+            <option value="other">Other</option>
+            <option value="wedding">Wedding Inquiry </option>
+            <option value="prom">Graduation Order</option>
+            <option value="holidaysS">Holiday Information</option>
+            <option value="home">Home Decour Stock</option>
+            <option value="holidays">Holiday Information</option>
+          </select>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Please tell us about your enquiry" style="height:250px"></textarea>
+       
+          <div class="wrapper-button">
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit"><!--form control 3-->
+          </div>
+        </form>
+      </div>
 </body>
 </html>
