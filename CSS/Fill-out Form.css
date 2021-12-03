@@ -1,0 +1,103 @@
+
+
+   * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(228, 228, 241);
+    margin:90px;
+  }
+  /*input forms */
+  
+  input[type="reset"] {
+    color: rgb(52, 52, 143);
+    padding: 9px 20px;
+    border: .5px solid rgb(52, 52, 143);
+    border-radius: 10px;
+    background-color: #f7f0e5;
+   
+  }
+  
+  input[type="reset"]:hover {
+    background-color: rgb(169, 169, 228);
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(145, 145, 243);
+    color: white;
+    padding: 12px 20px;
+    border: .5px solid rgb(52, 52, 143);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(169, 169, 228);
+  }
+  
+  
+  .form-box {
+    border-radius: 5px;
+    background-color: #eedfc7;
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .wrapper-button {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /*form controls*/
+  
+  input,
+  select,
+  textarea {
+    font-size: 1.3em;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  textarea {
+    font-family: 'Open Sans', sans-serif;;
+  }
+  
+  fieldset {
+    margin-bottom: 16px;
+    border: 1px solid ;
+  }
+  
+  .label-required {
+    font-size: 0.8rem;
+    color: rgb(167, 73, 255);
+  }
+  
+  .form-field{
+  display: flex;
+  display: inline-block;
+  width: 627px;
+  }
+  
