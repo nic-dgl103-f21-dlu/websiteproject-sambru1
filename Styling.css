@@ -47,7 +47,7 @@
 .txtover { position:relative } 
 
 .txtover figcaption {
-     position:absolute; bottom:0; left: 5em; ;
+    position:absolute; bottom:0; left: 5em; ;
     padding: 125px;
     color:white;
     padding-left:5em;
@@ -112,13 +112,8 @@ footer {
 nav {
     font-family:  'Open Sans', sans-serif;
     font-size: 24px;
-    
 }
 
-nav .wrapper {
-    width: 29em;
-    margin: auto ;
-      }
 nav ul {
      list-style-type: none;
      margin: 0;
@@ -140,8 +135,6 @@ nav li a:hover {
      background-color: #e4d6c0;
     color: white;}
 
-    /*fil
-
 /*misc items */
 
 .center {
@@ -152,8 +145,8 @@ h2 {font-family: 'Open Sans', sans-serif;
     width: auto; margin:  auto; 
     align-items: center;}
 
-h1  { font-size: 3em;
-font-family: 'PT Serif', serif;
+h1 { font-size: 3em;
+   font-family: 'PT Serif', serif;
    padding-top: 2em;
    padding-bottom: .5em;
    width: auto; margin:  auto; 

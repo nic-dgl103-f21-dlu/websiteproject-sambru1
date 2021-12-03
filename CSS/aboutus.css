@@ -12,9 +12,9 @@
 }
 /*paragraph*/
 .p1{
-    padding-left:300px;
-    padding-right:300px;
-    padding-bottom:110px;
+   margin-left:300px;
+   margin-right:300px;
+   margin-bottom:110px;
 }
 
 .ulbottom  {
@@ -22,3 +22,22 @@
     text-align: left;
     padding-top:50px
 }
+@media (max-width: 700px) {
+.p1 ,body nav, ul, nav li a, a, .map {
+    margin:10px;
+    padding:10px;
+}
+
+
+.txtover, figcaption {
+    align-items: flex-start;
+        padding: 0px;
+        color:white;
+        padding-left:0;
+    }
+    
+    figcaption {
+        font-size: 60px;}
+}
+
+
