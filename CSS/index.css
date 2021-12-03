@@ -1,0 +1,38 @@
+p{
+    font-size:16px
+}
+
+h1 { font-size: 3em;
+    font-family: 'PT Serif', serif;
+    padding-top: 2em;
+    padding-bottom: .5em;
+    width: auto; margin:  auto; 
+    align-items: center;
+ }
+
+/*bottom area*/
+
+.ulbottom  {
+    list-style-type: none;
+    text-align: left;
+}
+
+.spacebottom{
+    padding-bottom:50px
+}
+
+.padbottom{
+    padding-bottom:30px;
+}
+
+
+     
+h1 {font-size: 3em;
+    font-family: 'PT Serif', serif;
+    padding-top: 2em;
+    padding-bottom: .5em;
+    width: auto; margin: auto; 
+    align-items: center;
+    font-weight: 30px;
+ }
+ 

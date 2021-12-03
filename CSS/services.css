@@ -22,7 +22,7 @@ article{
 
 .left {
     float:left;
-    padding-right: 50px;
+    padding-right: 200px;
     border-top-left-radius:140px;
     border-bottom-left-radius:140px;
     object-fit: cover;
@@ -36,7 +36,7 @@ article{
     object-fit: cover;
 }
 
-p, ul {
+p  {
     padding-top: 10px;
     padding-bottom: 10px;
     
@@ -54,6 +54,3 @@ ul {
     font-size: 30px;
 }
 
-.pright{
-    padding-left:8em
-}
